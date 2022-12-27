@@ -1,7 +1,7 @@
 import React from 'react';
 // import { FiGithub, FiLinkedin } from 'react-icons/fi';
 // import { ImWhatsapp } from 'react-icons/im';
-// import { RxDoubleArrowDown } from 'react-icons/rx';
+import { RxDoubleArrowDown } from 'react-icons/rx';
 
 function Tela1() {
   // const teste = () => {
@@ -9,11 +9,11 @@ function Tela1() {
   // };
   return (
     <div
-      className="snap-start h-screen relative flex items-center justify-center "
+      className=" "
     >
       <div>
         <svg
-          className="waves"
+          className="absolute md:sticky md:flex bg-transparent waves"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20962 10601"
         >
@@ -53,25 +53,23 @@ function Tela1() {
                2998 1112 529 228 639 240 584 440-55 201-274 591-564 1321z"
           />
         </svg>
-      </div>
-      <div className="grid grid-cols-4 w-full absolute md:top-[55%]">
-        <div className="col-start-1 col-end-2 " />
-        <div className="col-start-2 col-end-5 text-neutral-200  ">
-          <div className="grid grid-rows-2 divide-y divide-neutral-500  text-neutral-200">
-            <h1 className="text-8xl font-righteous ">
+
+        <div className="mx-[25%] w-[100vw] md:mb-[35%] md:top[55%] text-neutral-200">
+          <div className="grid grid-rows-2 divide-y divide-neutral-500">
+            <h1 className="text-4xl md:text-8xl font-righteous ">
               Alexandre Belem
             </h1>
-            <p className="text-2xl font-webserver">
-              Desenvolvedor Web
 
+            <p className="text-xl md:text-xl  font-webserver">
+              Desenvolvedor Web
             </p>
           </div>
         </div>
       </div>
-      {/* <div> */}
-      {/* <RxDoubleArrowDown className="fill-red-600 bg-yellow-300" /> */}
-      {/* <RxDoubleArrowDown className=" text-gray-400 absolute bottom-20 h-8 w-8 animate-pulse" />
-      </div> */}
+
+      <RxDoubleArrowDown className="invisible md:visible text-gray-400 absolute
+      justify-center left-[50%] bottom-12 md:bottom-20 h-8 w-8 animate-pulse"
+      />
       {/* <div className=" text-gray-400 absolute left-8 bottom-[33%]  ">
         <div>
           <button

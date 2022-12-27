@@ -2,11 +2,12 @@ import React from 'react';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { ImWhatsapp } from 'react-icons/im';
 import Tela1 from './components/Tela1';
-import Tela2 from './components/Tela2';
-import Tela3 from './components/Tela3';
-import Tela4 from './components/Tela4';
+// import Tela2 from './components/Tela2';
+// import Tela3 from './components/Tela3';
+// import Tela4 from './components/Tela4';
 import About from './components/About';
-import Contact from './components/Contact';
+// import Teste from './components/Teste';
+// import Contact from './components/Contact';
 // import teste from './images/teste.png';
 // import github from './images/github.png';
 // import onda from './images/onda.svg';
@@ -26,8 +27,13 @@ function App() {
 
   return (
     <div
-      className="snap-y snap-mandatory h-screen w-screen
-        overflow-scroll bg-[#141414] scroll-smooth"
+      className="bg-[#141414]
+      snap-x md:snap-y snap-mandatory
+      flex md:block mx-auto
+      h-screen md:w-screen w-screen
+        overflow-scroll scroll-smooth
+
+        "
     >
       <div className=" text-gray-400 absolute left-8 bottom-[33%]  ">
         <div>
@@ -55,12 +61,16 @@ function App() {
           </button>
         </div>
       </div>
-      <Tela1 />
-      <About />
-      <Tela2 />
-      <Tela3 />
-      <Tela4 />
-      <Contact />
+      <div className="bg-[#141414]  snap-start w-screen h-screen
+        flex items-center justify-center text-6xl"
+      >
+        <Tela1 />
+      </div>
+      <div className="bg-[#141414] snap-start w-screen h-screen
+       flex items-center justify-center text-6xl"
+      >
+        <About />
+      </div>
     </div>
   );
 }
