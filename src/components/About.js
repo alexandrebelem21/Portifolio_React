@@ -16,7 +16,7 @@ function About() {
       >
         <img src={ale} className="md:w-full w-[200px] pr-8 " alt="Minha imagem" />
       </div>
-      <div className="text-left mx-auto px-16
+      <div className="text-left mx-auto mr-8
       pl-20 md:pl-8
       md:px-4 md:col-start-4 md:col-end-9
       h-[100%]

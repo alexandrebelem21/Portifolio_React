@@ -54,7 +54,7 @@ function Tela1() {
           />
         </svg>
 
-        <div className="mx-[25%] w-[100vw] md:mb-[35%] md:top[55%] text-neutral-200">
+        <div className="mx-[20%] w-[100vw] md:mb-[35%] md:top[55%] text-neutral-200">
           <div className="grid grid-rows-2 divide-y divide-neutral-500">
             <h1 className="text-4xl md:text-8xl font-righteous ">
               Alexandre Belem
