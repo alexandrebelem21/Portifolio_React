@@ -24,7 +24,7 @@ function About() {
       >
         <div className="text-sm md:text-base font-webserver text-neutral-200">
           <p>
-            {`Bem-vindo sou o Alexandre Belem quero te conduzir na minha jornada até aqui, venha conecer um pouco sobre mim e vou lhe apresentar alguns de meu projetos.
+            {`Bem-vindo sou o Alexandre Belem quero te apresentar minha jornada até aqui, venha conhecer um pouco sobre mim e vou lhe apresentar alguns de meu projetos.
             Conclui recentemente meu curso de desenvolvedor Web na Trybe, e atualmente curso Tecnologo em Cibersegurança na XPE, além de um curso de UI/UX da Google. `}
           </p>
           <p>
