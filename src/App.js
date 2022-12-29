@@ -67,7 +67,7 @@ function App() {
         <Tela1 />
       </div>
       <div className="bg-[#141414] snap-start w-screen h-screen
-       flex items-center justify-center text-6xl"
+       flex items-center justify-center "
       >
         <About />
       </div>

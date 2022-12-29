@@ -1,7 +1,7 @@
 import React from 'react';
 // import { FiGithub, FiLinkedin } from 'react-icons/fi';
 // import { ImWhatsapp } from 'react-icons/im';
-import { RxDoubleArrowDown } from 'react-icons/rx';
+import { RxDoubleArrowDown, RxDoubleArrowRight } from 'react-icons/rx';
 
 function Tela1() {
   // const teste = () => {
@@ -53,22 +53,44 @@ function Tela1() {
                2998 1112 529 228 639 240 584 440-55 201-274 591-564 1321z"
           />
         </svg>
+        <div className=" md:mx-[20%] md:mb-[35%] md:top[55%] w-[100vw]">
+          <div className="
+   h-screen grid grid-rows-3 md:grid-rows-2 divide-y divide-neutral-500 "
+          >
 
-        <div className="mx-[20%] w-[100vw] md:mb-[35%] md:top[55%] text-neutral-200">
-          <div className="grid grid-rows-2 divide-y divide-neutral-500">
-            <h1 className="text-4xl md:text-8xl font-righteous ">
+            <div className=" text-neutral-200 flex w-[80%] ml-[20%] items-end mx-auto md:mx-0
+      text-4xl md:text-8xl font-righteous"
+            >
+              <p>Alexandre Belem</p>
+            </div>
+            <div className="text-left mx-auto w-[80%] md:ml-0 ml-[20%]
+      h-[100%] flex md:h-screen justify-center items-top"
+            >
+              <div className="text-sm w-[100%] md:text-xl font-webserver text-neutral-200">
+                <p>Desenvolvedor Web</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        {/* <div className=" mx-[20%] w-[100vw] md:mb-[35%] md:top[55%] text-neutral-200">
+          <div className=" grid grid-rows-3 md:grid-rows-2  divide-y divide-neutral-500">
+            <h1 className="text-2xl md:text-8xl font-righteous ">
               Alexandre Belem
             </h1>
 
-            <p className="text-xl md:text-xl  font-webserver">
+            <p className="text-lg md:text-xl  font-webserver">
               Desenvolvedor Web
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <RxDoubleArrowDown className="invisible md:visible text-gray-400 absolute
-      justify-center left-[50%] bottom-12 md:bottom-20 h-8 w-8 animate-pulse"
+      justify-center left-[50%] bottom-20 h-8 w-8 animate-pulse"
+      />
+      <RxDoubleArrowRight className="visible md:invisible text-gray-400 absolute
+      justify-center left-[50%] bottom-4 h-8 w-8 animate-pulse"
       />
       {/* <div className=" text-gray-400 absolute left-8 bottom-[33%]  ">
         <div>
