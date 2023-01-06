@@ -3,7 +3,7 @@ import React from 'react';
 // import { ImWhatsapp } from 'react-icons/im';
 import { RxDoubleArrowDown, RxDoubleArrowRight } from 'react-icons/rx';
 
-function Tela1() {
+function Main() {
   // const teste = () => {
   //   window.location.assign('https://www.linkedin.com/in/alexandre-belem21/');
   // };
@@ -73,25 +73,22 @@ function Tela1() {
 
           </div>
         </div>
-        {/* <div className=" mx-[20%] w-[100vw] md:mb-[35%] md:top[55%] text-neutral-200">
-          <div className=" grid grid-rows-3 md:grid-rows-2  divide-y divide-neutral-500">
-            <h1 className="text-2xl md:text-8xl font-righteous ">
-              Alexandre Belem
-            </h1>
-
-            <p className="text-lg md:text-xl  font-webserver">
-              Desenvolvedor Web
-            </p>
-          </div>
-        </div> */}
       </div>
 
       <RxDoubleArrowDown className="invisible md:visible text-gray-400 absolute
-      justify-center left-[50%] bottom-20 h-8 w-8 animate-pulse"
+      justify-center left-[50%] bottom-4 h-8 w-8 animate-pulse"
       />
       <RxDoubleArrowRight className="visible md:invisible text-gray-400 absolute
       justify-center left-[50%] bottom-4 h-8 w-8 animate-pulse"
       />
+
+      <div className=" relative text-xl md:text-4xl
+      justify-center bottom-20 md:bottom-[86vh] flex gap-4"
+      >
+        <p className="text-[#141414]">Home </p>
+        <p className="text-gray-700"> </p>
+        <p className="text-gray-700"> </p>
+      </div>
       {/* <div className=" text-gray-400 absolute left-8 bottom-[33%]  ">
         <div>
           <button
@@ -122,4 +119,4 @@ function Tela1() {
   );
 }
 
-export default Tela1;
+export default Main;
