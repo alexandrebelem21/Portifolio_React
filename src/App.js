@@ -23,7 +23,7 @@ function App() {
 
         "
     >
-      <div className=" text-gray-400 absolute left-8 bottom-[33%]  ">
+      <div className=" text-gray-400 absolute left-6 bottom-[33%]  ">
         <div>
           <button
             type="button"
