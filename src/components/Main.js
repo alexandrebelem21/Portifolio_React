@@ -9,7 +9,7 @@ function Main() {
   // };
   return (
     <div
-      className=" "
+      className=""
     >
       <div>
         <svg

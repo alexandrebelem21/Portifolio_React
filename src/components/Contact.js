@@ -29,10 +29,10 @@ function Contact() {
       });
   };
   return (
-    <div className="mt-4">
+    <div className="mt-0">
       <div className="text-black text-6xl h-screen w-[100vw]
     grid grid-rows-3 md:grid-rows-2 divide-y md:divide-y-0  md:mt-[25%]
-
+    mt-[30vh]
      md:ml-[18vw]
     md:w-2/3  md:grid-cols-8 md:divide-x  divide-neutral-500 "
       >

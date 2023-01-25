@@ -74,7 +74,7 @@ function Project3() {
         </div>
       </div>
       <div className="relative text-base md:text-2xl md:rotate-90
-      justify-center md:left-[76vh] bottom-20 md:bottom-[75vh] hidden md:flex gap-2 md:gap-6 md:mt-4"
+      justify-center md:left-[76vh] bottom-20 md:bottom-[75vh] flex md:flex gap-2 md:gap-6 md:mt-4"
       >
         <p className="text-gray-700 md:mb-4">Home</p>
         <p className="text-gray-700 md:mb-4">About</p>
