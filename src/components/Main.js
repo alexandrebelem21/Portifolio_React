@@ -55,7 +55,7 @@ function Main() {
         </svg>
         <div className=" md:mx-[20%] md:mb-[35%] mt-[25vh] md:mt-0 md:top[55%] w-[100vw]">
           <div className="
-          mt-[50vh]
+          mt-[30vh]
    h-screen grid grid-rows-3 md:grid-rows-2 divide-y divide-neutral-500 "
           >
 
