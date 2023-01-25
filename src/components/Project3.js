@@ -3,13 +3,13 @@ import wallet from '../images/wallet.png';
 
 function Project3() {
   const goProject = () => {
-    window.location.assign('https://wallet-alexandrebelem21.vercel.app/');
+    window.location.assign('https://www.linkedin.com/in/alexandre-belem21/');
   };
   return (
-    <div className="mt-4">
+    <div className="mt-0">
       <div className="text-black text-6xl h-screen w-[100vw]
     grid grid-rows-3 md:grid-rows-2 divide-y md:divide-y-0  md:mt-[25%]
-    mt-[25vh]
+    mt-[50vh]
     md:ml-[18vw]
     md:w-2/3  md:grid-cols-8 md:divide-x  divide-neutral-500 "
       >
@@ -30,11 +30,6 @@ function Project3() {
                       Uma consulta a uma api é feita para fazer a conversao par ao Real.
                       Foi usado ReactJs com redux e o bootstrap.
                       
-                      `}
-                    </p>
-                    <p>
-                      {`
-                      Ao clicar na imagem abaixo é possivel ver a aplicação funcionando.
                       `}
                     </p>
                   </div>
@@ -75,10 +70,11 @@ function Project3() {
           >
             <img src={wallet} className="md:h-[50vh] mt-8 h-[30vh] w-[100vw] mx-auto pr-8 " alt="Minha imagem" />
           </button>
+
         </div>
       </div>
       <div className="relative text-base md:text-2xl md:rotate-90
-      justify-center md:left-[76vh] bottom-20 md:bottom-[75vh] flex gap-2 md:gap-6 md:mt-4"
+      justify-center md:left-[76vh] bottom-20 md:bottom-[75vh] hidden md:flex gap-2 md:gap-6 md:mt-4"
       >
         <p className="text-gray-700 md:mb-4">Home</p>
         <p className="text-gray-700 md:mb-4">About</p>

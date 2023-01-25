@@ -3,10 +3,10 @@ import ale from '../images/ale.jpg';
 
 function About() {
   return (
-    <div>
+    <div className="mt-0">
       <div className="text-black text-6xl h-screen w-[100vw]
     grid grid-rows-3 md:grid-rows-2 divide-y md:divide-y-0  md:mt-[25%]
-     md:ml-[18vw] mt-[25vh]
+     md:ml-[18vw] mt-[50vh]
     md:w-2/3  md:grid-cols-8 md:divide-x  divide-neutral-500 "
       >
 
