@@ -19,7 +19,9 @@ function App() {
       snap-x md:snap-y snap-mandatory
       flex md:block mx-auto
       h-screen md:w-screen w-screen
-        overflow-scroll scroll-smooth"
+        overflow-scroll scroll-smooth
+
+        "
     >
       <div className=" text-gray-400 absolute left-8 bottom-[33%]  ">
         <div>

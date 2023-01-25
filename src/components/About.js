@@ -6,8 +6,7 @@ function About() {
     <div>
       <div className="text-black text-6xl h-screen w-[100vw]
     grid grid-rows-3 md:grid-rows-2 divide-y md:divide-y-0  md:mt-[25%]
-
-     md:ml-[18vw]
+     md:ml-[18vw] mt-[25vh]
     md:w-2/3  md:grid-cols-8 md:divide-x  divide-neutral-500 "
       >
 
@@ -66,7 +65,7 @@ function About() {
 
       </div>
       <div className="relative text-base md:text-2xl md:rotate-90
-      justify-center md:left-[76vh] bottom-20 md:bottom-[75vh] flex gap-2 md:gap-6 md:mt-4"
+      justify-center md:left-[76vh] bottom-[23vh] md:bottom-[75vh] flex gap-2 md:gap-6 md:mt-4"
       >
         <p className="text-gray-700 md:mb-4">Home</p>
         <p className="text-gray-500 md:mb-4">About</p>

@@ -53,7 +53,7 @@ function Main() {
                2998 1112 529 228 639 240 584 440-55 201-274 591-564 1321z"
           />
         </svg>
-        <div className=" md:mx-[20%] md:mb-[35%] md:top[55%] w-[100vw]">
+        <div className=" md:mx-[20%] md:mb-[35%] mt-[25vh] md:mt-0 md:top[55%] w-[100vw]">
           <div className="
    h-screen grid grid-rows-3 md:grid-rows-2 divide-y divide-neutral-500 "
           >
@@ -66,8 +66,21 @@ function Main() {
             <div className="text-left mx-auto w-[80%] md:ml-0 ml-[20%]
       h-[100%] flex md:h-screen justify-center items-top"
             >
-              <div className="text-sm w-[100%] md:text-xl font-webserver text-neutral-200">
-                <p>Desenvolvedor Web</p>
+              <div className=" md:flex text-sm w-[100%] md:text-2xl font-webserver text-neutral-200 mt-0">
+                <p>Desenvolvedor Web  </p>
+                <p className="md:flex md:w-[25px] md:h-[25px] w-[16px] h-[16px] md:ml-4 mt-1">
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" />
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40" />
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" />
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40" />
+                  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" />
+                  <img src="https://user-images.githubusercontent.com/103572567/214187517-3a7b4d63-90fa-4040-b804-bd16c0950c5e.png" alt="bootstrap" width="40" height="40" />
+                  <img src="https://user-images.githubusercontent.com/103572567/214187988-edcb93b4-6a4a-4273-86f5-7b5ece8237e3.png" alt="tailwind" width="40" height="40" />
+                  <img src="https://user-images.githubusercontent.com/103572567/214191204-a63acedd-d1b6-438e-9f30-025d1e7af83c.png" alt="docker" width="40" height="40" />
+                </p>
               </div>
             </div>
 
@@ -85,7 +98,7 @@ function Main() {
       <div className=" relative text-xl md:text-4xl
       justify-center bottom-20 md:bottom-[86vh] flex gap-4"
       >
-        <p className="text-[#141414]">Home </p>
+        <p className="text-#141414]">Home </p>
         <p className="text-gray-700"> </p>
         <p className="text-gray-700"> </p>
       </div>

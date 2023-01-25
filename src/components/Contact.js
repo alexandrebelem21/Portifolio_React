@@ -29,7 +29,7 @@ function Contact() {
       });
   };
   return (
-    <div>
+    <div className="mt-4">
       <div className="text-black text-6xl h-screen w-[100vw]
     grid grid-rows-3 md:grid-rows-2 divide-y md:divide-y-0  md:mt-[25%]
 

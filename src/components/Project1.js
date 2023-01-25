@@ -3,10 +3,10 @@ import github from '../images/github.png';
 
 function Project1() {
   return (
-    <div>
+    <div className="mt-0">
       <div className="text-black text-6xl h-screen w-[100vw]
     grid grid-rows-3 md:grid-rows-2 divide-y md:divide-y-0  md:mt-[25%]
-
+mt-[25vh]
      md:ml-[18vw]
     md:w-2/3  md:grid-cols-8 md:divide-x  divide-neutral-500 "
       >
@@ -14,11 +14,11 @@ function Project1() {
         <div className=" pl-12 md:pl-0 text-5xl text-neutral-200 w-[100vw] md:w-[25vw]
       md:col-start-1 md:col-end-4 flex items-end md:items-start md:mx-auto"
         >
-          <div className=" text-5x text-neutral-200 col-start-1 col-end-4
+          <div className="text-3xl md:text-5xl text-neutral-200 col-start-1 col-end-4
           text-center md:text-right pr-8 mx-auto "
           >
             Project One
-            <div className=" text-base text-neutral-500 mt-6">
+            <div className=" text-base text-neutral-500 mt-3">
               { (window.screen.width < 700)
                 ? (
                   <div>
@@ -60,11 +60,11 @@ function Project1() {
       w-[100vw]
         flex md:h-screen justify-center items-top"
         >
-          <img src={github} className="md:h-[50vh] mt-8 h-[30vh] w-[100vw] mx-auto pr-8 " alt="Minha imagem" />
+          <img src={github} className="md:h-[50vh] mt-8 h-[35vh] w-[100vw] mx-auto pr-8 " alt="Minha imagem" />
         </div>
       </div>
       <div className="relative text-base md:text-2xl md:rotate-90
-      justify-center md:left-[76vh] bottom-20 md:bottom-[75vh] flex gap-2 md:gap-6 md:mt-4"
+      justify-center md:left-[76vh] bottom-[23vh] md:bottom-[75vh] flex gap-2 md:gap-6 md:mt-4"
       >
         <p className="text-gray-700 md:mb-4">Home</p>
         <p className="text-gray-700 md:mb-4">About</p>
